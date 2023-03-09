@@ -1,0 +1,13 @@
+/* Displays */
+*[block]{display:block}
+*[inline-block]{display:inline-block}
+*[flex]{display:flex}
+*[grid]{display:grid}
+*[inline]{display:inline}
+*[hide]{display:none}
+
+/* Shadows */
+*[shadow="s"]{box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+*[shadow],*[shadow="m"]{box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+*[shadow="l"]{box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+*[shadow="xl"]{box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;}

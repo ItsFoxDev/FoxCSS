@@ -1,3 +1,16 @@
+/* Colours */
+:root{
+  --red: #ff4141;
+  --orange: #ff7a00;
+  --yellow: #ffd600;
+  --green: #2cc74e;
+  --neon: #00ffb7;
+  --azure: #256ef5;
+  --blue: #3250ed;
+  --purple: #a451fc;
+  --pink: #bd00ff;
+}
+
 /* Displays */
 *[block]{display:block}
 *[inline-block]{display:inline-block}
@@ -14,3 +27,14 @@
 
 /* General */
 *[center]{justify-content:center;align-content:center;text-align:center;}
+
+/* Text colors */
+*[color="white"]{color:white}
+*[color="black"]{color:white}
+*[color="red"]{color:var(--red)}
+*[color="orange"]{color:var(--orange)}
+*[color="yellow"]{color:var(--yellow)}
+*[color="green"]{color:var(--green)}
+*[color="blue"]{color:var(--blue)}
+*[color="purple"]{color:var(--purple)}
+*[color="pink"]{color:var(--pink)}
